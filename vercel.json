@@ -5,5 +5,11 @@
       "destination": "https://app.coexistaus.org/campouts",
       "permanent": false
     }
-  ]
+  ],
+  "git": {
+    "deploymentEnabled": {
+      "backup/auto-snapshot": false,
+      "backup/*": false
+    }
+  }
 }
